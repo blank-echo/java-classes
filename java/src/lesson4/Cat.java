@@ -1,4 +1,6 @@
-public class Cat extends Animal{
+package lesson4;
+
+public class Cat extends Animal {
     private int catCounter;
 
     public Cat (String name) {

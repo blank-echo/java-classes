@@ -1,3 +1,5 @@
+package lesson2;
+
 public class Arrays2 {
     public static void main(String[] args) {
         //Задать пустой целочисленный массив размером 8.

@@ -1,3 +1,5 @@
+package lesson2;
+
 public class Arrays5 {
     public static void main(String[] args) {
         //Задать одномерный массив и найти в нем минимальный и максимальный элементы

@@ -1,3 +1,5 @@
+package lesson2;
+
 public class Arrays {
     public static void main(String[] args) {
         //Задать целочисленный массив, состоящий из 0 и 1.

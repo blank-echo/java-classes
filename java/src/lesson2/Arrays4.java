@@ -1,3 +1,5 @@
+package lesson2;
+
 public class Arrays4 {
     public static void main(String[] args) {
         //Создать квадратный двумерный целочисленный массив (количество строк и столбцов одинаковое),

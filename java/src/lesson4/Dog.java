@@ -1,3 +1,5 @@
+package lesson4;
+
 public class Dog extends Animal {
     private int dogCounter;
 

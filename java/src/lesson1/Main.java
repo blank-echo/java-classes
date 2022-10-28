@@ -1,3 +1,5 @@
+package lesson1;
+
 public class Main {
     public static void main(String[] args) {
         //Создать переменные всех пройденных типов данных и инициализировать их значения

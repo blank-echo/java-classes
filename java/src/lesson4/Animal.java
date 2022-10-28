@@ -1,3 +1,5 @@
+package lesson4;
+
 public class Animal {
     private int animalCounter;
     String name;

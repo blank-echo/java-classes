@@ -1,3 +1,5 @@
+package lesson2;
+
 public class Arrays6 {
     public static void main(String[] args) {
         //Написать метод, в который передается не пустой одномерный целочисленный массив,

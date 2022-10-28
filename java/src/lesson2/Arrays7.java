@@ -1,3 +1,5 @@
+package lesson2;
+
 public class Arrays7 {
     public static void main(String[] args) {
         //Написать метод, которому на вход подается одномерный массив и число n (может быть положительным,
