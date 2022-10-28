@@ -2,14 +2,12 @@ package lesson4;
 
 public class Main {
     public static void main(String[] args) {
-        Animal animal = new Animal("Kesha Da Parrot");
         Cat cat1 = new Cat("Barsik");
-        Cat cat2 = new Cat ("Murzoid");
-        Cat cat3 = new Cat ("Lucifer");
-        Dog dog1 = new Dog ("Arthas");
-        Dog dog2 = new Dog ("Woofer");
+        Cat cat2 = new Cat("Murzoid");
+        Cat cat3 = new Cat("Lucifer");
+        Dog dog1 = new Dog("Arthas");
+        Dog dog2 = new Dog("Woofer");
 
-        animal.run(50);
         cat1.swim(5);
         cat2.run(190);
         cat1.run(250);
@@ -18,6 +16,7 @@ public class Main {
         dog2.swim(15);
         dog1.swim(7);
 
-        System.out.println("Total cats: " + cat2.totalCats());
+        System.out.println("Dogs " + Dog.getCount());
+        System.out.println("Cats " + Cat.getCount());
     }
 }

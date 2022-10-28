@@ -1,19 +1,17 @@
 package lesson4;
 
-public class Animal {
-    private int animalCounter;
-    String name;
-    public Animal(){
-    animalCounter = animalCounter++;
-    }
-    public Animal (String name) {
+public abstract class Animal {
+    private static int count;
+    protected String name;
+
+    public Animal(String name) {
         this.name = name;
-        animalCounter = animalCounter++;
+        System.out.println("Name is setted: " + name );
+        Animal.count++;
+        System.out.println("now count is: " + count);
     }
-    void run (int a) {
-        System.out.println(this.name + " ran " + a + " meters.");
-    }
-    void swim (int b) {
-        System.out.println(this.name + " swim " + b + " meters.");
-    }
+
+    public abstract void swim(int b);
+
+    public abstract void run(int a);
 }

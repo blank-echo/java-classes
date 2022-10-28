@@ -1,24 +1,29 @@
 package lesson4;
 
 public class Cat extends Animal {
-    private int catCounter;
+    private static int count;
 
-    public Cat (String name) {
-        this.name = name;
-        catCounter = catCounter + 1;
+    public Cat(String name) {
+        super(name);
+        Cat.count++;
+        System.out.println("Total cats: " + Cat.count);
+    }
+
+    public static int getCount() {
+        return count;
     }
 
     @Override
-    void swim (int b){
-        b = 0;
-        System.out.println(this.name + " swim " + b + " meters, since cats can't swim.");
+    public void swim(int b) {
+        System.out.println(this.name + " doesn't swim, since cats can't swim.");
     }
-    void run (int a) {
+
+    @Override
+    public void run(int a) {
         if (a <= 200 && a > 0) {
             System.out.println(this.name + " ran " + a + " meters.");
-        } else System.out.println("Cats don's run that much.");
-    }
-    public int totalCats() {
-        return catCounter;
+        } else {
+            System.out.println("Cats don's run that much.");
+        }
     }
 }
